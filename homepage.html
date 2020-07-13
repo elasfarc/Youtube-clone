@@ -2,17 +2,20 @@
 <html>
    <head>
      <script src="https://kit.fontawesome.com/e53eea7683.js" crossorigin="anonymous"></script>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="./assets/homepage.css">
    </head>
    <body>
 
      <nav>
        <section class="menu-logo">
-         <i class="fas fa-bars"></i>
-         <img
+         <a href="#"><i class="fas fa-bars"></i></a>
+         <a href="#">
+           <img
             src="./assets/imgs/yt-logo-2.png"
             alt="Youtube logo"
          >
+       </a>
 
        </section>
 
@@ -33,20 +36,22 @@
          <a href="#">
            <i class="fas fa-upload"></i>
         </a>
-        <a>
+        <a href="#">
            <i class="fas fa-bell"></i>
         </a>
-        <img
-           src="./assets/imgs/avatar.png"
-           alt="User's Avatar"
-        >
+
+           <img
+              src="./assets/imgs/avatar.png"
+              alt="User's Avatar"
+           >
+
        </section>
     </nav>
 
     <main>
       <section class="video-container">
           <!-- gonna represent the video & channel info & description & comments-->
-          <iframe width="420" height="315"
+          <iframe width="750" height="493"
                   src="https://www.youtube.com/embed/V74l_zS1x8E">
           </iframe>
 
@@ -58,21 +63,20 @@
                 <!-- gonna represent the uploader name& avater and subscribe buttom-->
                 <img src="./assets/imgs/uploader-avatar.png" alt="Uploader Avatar">
                 <div class="subscribe">
-                   <p>The Odin Project</p>
-                   <div class="sNumber">
-                      <img src="./assets/imgs/subscribe-icon.png" alt=""
-                      >
-                      <p id="">799</p>
-                   </div>
+
+                  <!-- contains channel name and class sNumber-->
+                  <div class="subscribe-channel">
+                    <p>The Odin Project</p>
+                    <div class="sNumber">
+                       <img id="subscribe-icon" src="./assets/imgs/subscribe-icon.png" alt=""
+                       >
+                       <p id="">799</p>
+                    </div>
+                 </div>
                    <p>50,016 views</p>
                 </div>
-
-                <hr>
-
-
-
-              </div>
-
+              </div>   <!--end channel info container-->
+              <hr>
             </div>
             <div class="social">
               <!-- gonna represent share & like dislike ....-->
@@ -94,7 +98,7 @@
 
               </div>
 
-              <div class="right-most">
+              <div class="right-mostUP">
                 <a href="#">
                   <i class="fas fa-thumbs-up"></i>
                   <p>359</p>
@@ -133,7 +137,7 @@
 
       <aside>
         <div class="control-recommended-video-list">
-          <div class="left-most"><p>Up next</p></div>
+          <div class="left-most"><p><strong>Up next</stong></p></div>
           <div class="right-most">
             <p>Autoplay </p>
             <img src="./assets/imgs/info.png" >
@@ -142,92 +146,107 @@
         </div>
         <div class="preview-container">
           <div class="thumbnail">
-            <<img src="./assets/imgs/preview1.png" >
+            <a href="#"><img src="./assets/imgs/preview1.png" > </a>
           </div>
           <div class="preview-info">
-            <p><b>Contributing to Open Source Part II: The Real Way</b></p>
-            <p>The Odin Project</p>
-            <p>29,985 views</p>
+              <a href="#"><p class="preview-videoTitle"><strong>Contributing to Open Source Part II: The Real Way</strong></p></a>
+              <a href="#"><p class="preview-channel-name">The Odin Project</p></a>
+            <p class="preview-views">29,985 views</p>
           </div>
         </div>
 
-        <div class="preview-container">
-          <div class="thumbnail">
-            <<img src="./assets/imgs/preview2.png" >
-          </div>
-          <div class="preview-info">
-            <p><b>Contributing to Open Source Part II: The Real Way</b></p>
-            <p>The Odin Project</p>
-            <p>29,985 views</p>
-          </div>
-        </div>
 
-        <div class="preview-container">
-          <div class="thumbnail">
-            <<img src="./assets/imgs/preview3.png" >
-          </div>
-          <div class="preview-info">
-            <p><b>Contributing to Open Source Part II: The Real Way</b></p>
-            <p>The Odin Project</p>
-            <p>29,985 views</p>
-          </div>
-        </div>
+        <ul>
+          <li><hr id="previewContainer-hLine"/></li>
+       </ul>
 
-        <div class="preview-container">
-          <div class="thumbnail">
-            <<img src="./assets/imgs/preview4.png" >
-          </div>
-          <div class="preview-info">
-            <p><b>Contributing to Open Source Part II: The Real Way</b></p>
-            <p>The Odin Project</p>
-            <p>29,985 views</p>
-          </div>
-        </div>
 
-        <div class="preview-container">
-          <div class="thumbnail">
-            <<img src="./assets/imgs/preview5.png" >
-          </div>
-          <div class="preview-info">
-            <p><b>Contributing to Open Source Part II: The Real Way</b></p>
-            <p>The Odin Project</p>
-            <p>29,985 views</p>
-          </div>
-        </div>
+       <div class="preview-container">
+         <div class="thumbnail">
+           <a href="#"><img src="./assets/imgs/preview2.png" > </a>
+         </div>
+         <div class="preview-info">
+             <a href="#"><p class="preview-videoTitle"><strong>Contributing to Open Source Part II: The Real Way</strong></p></a>
+             <a href="#"><p class="preview-channel-name">The Odin Project</p></a>
+           <p class="preview-views">29,985 views</p>
+         </div>
+       </div>
 
-        <div class="preview-container">
-          <div class="thumbnail">
-            <<img src="./assets/imgs/preview6.png" >
-          </div>
-          <div class="preview-info">
-            <p><b>Contributing to Open Source Part II: The Real Way</b></p>
-            <p>The Odin Project</p>
-            <p>29,985 views</p>
-          </div>
-        </div>
+       <div class="preview-container">
+         <div class="thumbnail">
+           <a href="#"><img src="./assets/imgs/preview3.png" > </a>
+         </div>
+         <div class="preview-info">
+             <a href="#"><p class="preview-videoTitle"><strong>Contributing to Open Source Part II: The Real Way</strong></p></a>
+             <a href="#"><p class="preview-channel-name">The Odin Project</p></a>
+           <p class="preview-views">29,985 views</p>
+         </div>
+       </div>
 
-        <div class="preview-container">
-          <div class="thumbnail">
-            <<img src="./assets/imgs/preview7.png" >
-          </div>
-          <div class="preview-info">
-            <p><b>Contributing to Open Source Part II: The Real Way</b></p>
-            <p>The Odin Project</p>
-            <p>29,985 views</p>
-          </div>
-        </div>
+       <div class="preview-container">
+         <div class="thumbnail">
+           <a href="#"><img src="./assets/imgs/preview4.png" > </a>
+         </div>
+         <div class="preview-info">
+             <a href="#"><p class="preview-videoTitle"><strong>Contributing to Open Source Part II: The Real Way</strong></p></a>
+             <a href="#"><p class="preview-channel-name">The Odin Project</p></a>
+           <p class="preview-views">29,985 views</p>
+         </div>
+       </div>
 
-        <div class="preview-container">
-          <div class="thumbnail">
-            <<img src="./assets/imgs/preview8.png" >
-          </div>
-          <div class="preview-info">
-            <p><b>Contributing to Open Source Part II: The Real Way</b></p>
-            <p>The Odin Project</p>
-            <p>29,985 views</p>
-          </div>
-        </div>
-      </aside>
+       <div class="preview-container">
+         <div class="thumbnail">
+           <a href="#"><img src="./assets/imgs/preview5.png" > </a>
+         </div>
+         <div class="preview-info">
+             <a href="#"><p class="preview-videoTitle"><strong>Contributing to Open Source Part II: The Real Way</strong></p></a>
+             <a href="#"><p class="preview-channel-name">The Odin Project</p></a>
+           <p class="preview-views">29,985 views</p>
+         </div>
+       </div>
+
+       <div class="preview-container">
+         <div class="thumbnail">
+           <a href="#"><img src="./assets/imgs/preview6.png" > </a>
+         </div>
+         <div class="preview-info">
+             <a href="#"><p class="preview-videoTitle"><strong>Contributing to Open Source Part II: The Real Way</strong></p></a>
+             <a href="#"><p class="preview-channel-name">The Odin Project</p></a>
+           <p class="preview-views">29,985 views</p>
+         </div>
+       </div>
+
+       <div class="preview-container">
+         <div class="thumbnail">
+           <a href="#"><img src="./assets/imgs/preview7.png" > </a>
+         </div>
+         <div class="preview-info">
+             <a href="#"><p class="preview-videoTitle"><strong>Contributing to Open Source Part II: The Real Way</strong></p></a>
+             <a href="#"><p class="preview-channel-name">The Odin Project</p></a>
+           <p class="preview-views">29,985 views</p>
+         </div>
+       </div>
+
+       <div class="preview-container">
+         <div class="thumbnail">
+           <a href="#"><img src="./assets/imgs/preview8.png" > </a>
+         </div>
+         <div class="preview-info">
+             <a href="#"><p class="preview-videoTitle"><strong>Contributing to Open Source Part II: The Real Way</strong></p></a>
+             <a href="#"><p class="preview-channel-name">The Odin Project</p></a>
+           <p class="preview-views">29,985 views</p>
+         </div>
+       </div>
+
+        <div class="preview-showmore-container">
+           <ul>
+              <li><hr id="previewContainer-hLine2"/></li>
+          </ul>
+          <a href="#">
+             SHOW MORE
+          </a>
+       </div>
+     </aside>
 
     </main>
    </body>
