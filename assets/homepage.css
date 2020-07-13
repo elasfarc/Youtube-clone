@@ -41,7 +41,7 @@ nav {
     align-items: center;
     justify-content: center;
     width: 55%;
-    border: blue 2px solid;
+
 }
 
 .search-function input {
@@ -63,7 +63,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content:space-evenly;
-    border: red 2px solid;
+    border: blue 2px solid;
+
 }
 
 .fa-upload {
@@ -79,18 +80,24 @@ nav {
 .icons img{
     width: 30%;
     cursor: pointer;
-    margin-left: 5px;
+    margin-left: 15px;
+    border-radius: 50%;
+    border: red 1px solid;
+}
+
+.icons i {
+  margin-left: 15px;
+
 }
 
 
 main{
   display: flex;
-  border: brown 2px solid;
+
 }
 
 .video-container{
   width: 60%;
-  border: black 2px solid;
   margin-left: 30px;
 
 }
@@ -99,14 +106,12 @@ aside{
 
   width: 35%;
   background-color: #FFF;
-  border: yellow 2px solid;
   height:100%;
 
 }
 
 
 .preview-container{
-  border: red 1px solid;
   display: flex;
 }
 
@@ -162,7 +167,6 @@ aside{
 }
 
 .preview-info{
-  border: blue 1px solid;
 }
 
 .preview-videoTitle {
@@ -226,7 +230,7 @@ padding-bottom: 10px;
 }
 
 .channel-information {
-  border:red 1px solid;
+
   display: flex;
 }
 
@@ -240,4 +244,9 @@ padding-bottom: 10px;
   border:blue 1px solid;
   width: 30%
 
+}
+
+
+.social{
+  display: flex;
 }
