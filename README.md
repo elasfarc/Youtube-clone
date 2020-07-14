@@ -1,5 +1,7 @@
 Youtube-clone
-An HTML document that matches the appearance of  a YouTube video page.
+An HTML document that matches the appearance of  a YouTube video page.  
+
+![screenshot](./screenshot.jpeg)
 
 Built With
 HTML
