@@ -77,7 +77,8 @@ nav {
 }
 
 .icons img{
-    width: 30%;
+    width: 20%;
+    height:85%;
     cursor: pointer;
     margin-left: 15px;
     border-radius: 50%;
@@ -172,6 +173,7 @@ aside{
 .right-most img{
   width: 20%;
   margin-left: -3px;
+  cursor: pointer;
 }
 
 .right-most p{
@@ -190,6 +192,7 @@ aside{
   color: rgb(32, 124, 196);
   font-size: 28px;
   margin-right: 15px;
+  cursor: pointer;
 }
 
 .left-most p{
