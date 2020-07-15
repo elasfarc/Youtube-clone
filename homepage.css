@@ -224,7 +224,7 @@ ul{
   margin-left:-7px;
 }
 
-#previewContainer-hLine, #previewContainer-hLine2{
+#previewContainer-hLine, #previewContainer-horizontal-rule{
     border: none;
     height: 1px;
     color:rgb(226, 226, 226) ;
@@ -270,11 +270,6 @@ padding-bottom: 10px;
   color: rgb(115, 115, 115);
   font-size: 11px;
   padding: 4px 7px;
-}
-
-.subscribe{
-  /*display: flex;
-  justify-content: space-evenly;*/
 }
 
 #subscribe-icon{

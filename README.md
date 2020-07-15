@@ -1,13 +1,17 @@
-Youtube-clone
-An HTML document that matches the appearance of  a YouTube video page.  
+# Youtube-clone
+This project is the clone of a YouTube video page.  
 
 ![screenshot](./screenshot.jpeg)
 
-Built With
-HTML
-CSS
+## Built With
+- HTML
+- CSS
 
-Authors  
+## Live Demo  
+
+https://raw.githack.com/elasfarc/Youtube-clone/homepage/homepage.html
+
+## Authors  
 👤 Author1  
 
 Github: @Blaise-Shyaka  
@@ -18,5 +22,5 @@ Twitter: @blaiseshyaka95
 Github: @elasfarc  
 Twitter: @elasfar3  
 
-Show your support  
+## Show your support  
 Give a ⭐️ if you like this project!  
